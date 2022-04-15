@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Mulish", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 34px;
+  letter-spacing: 1.5px;
+  color: #1b3c59;
+  /* line-height: 70px; */
+}
+
+p {
+  font-size: 15px;
+  /* width: 300px; */
+}
+
+#highlight {
+  font-family: "Abril Fatface", cursive;
+  font-size: 34px;
+  letter-spacing: 1.5px;
+  color: #1b3c59;
+}
+
+#container {
+  background-color: #c2e4ff;
+  margin: 24px;
+  padding: 26px 16px;
+}
+
+.btn {
+  background-color: #1b3c59;
+  text-decoration: none;
+  color: white;
+  width: 115px;
+  height: 30px;
+  padding: 3px 8px;
+  margin: 10px 0px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: -8px 8px 0px #55aeed;
+  transition: box-shadow 0.75s;
+  /* border-radius: 5px; */
+}
+.btn:hover {
+  box-shadow: 0px 0px;
+}
+
+/* Navbar */
+
+#navbarBox {
+  display: flex;
+  flex-direction: row;
+  color: #1b3c59;
+}
+
+#logo {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  font-weight: 900;
+  font-size: 15px;
+}
+#button {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 43px;
+  right: 36px;
+}
+
+#button a {
+  /* background-color: #fff; */
+  text-decoration: none;
+  border-bottom: 3px solid #037bd1;
+  font-weight: bold;
+  color: #1b3c59;
+  display: inline-block;
+  padding: 5px 7px;
+  text-align: center;
+  margin: 0px 0px 4px 0px;
+  /* border-radius: 5px; */
+  font-size: 13px;
+  transition: background-color 0.4s;
+}
+
+#button a:hover {
+  background-color: #55aeed;
+  /* border: 3px solid #1B3C59; */
+}
+
+/* HeroBox */
+
+#heroBox {
+  /* height: 85; */
+  width: 95%;
+  margin: 120px 0px 0px 0px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#heroBox h1 {
+  color: #55aeed;
+}
+
+#heroBox p {
+  width: 90%;
+  margin: 30px 0px;
+  line-height: 30px;
+}
+
+/* Project */
+
+#projectBox {
+  /* border: 1px solid black; */
+  padding: 10px 40px;
+}
+
+.project {
+  /* display: grid;
+  grid-template-columns: repeat(2, 50%);
+  height: 65vh; */
+  /* border: 2px solid red; */
+  margin: 100px 0px;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.projectContent > * {
+  margin: 2px 0px;
+}
+
+.projectContent h5 {
+  color: #1b3c59c2;
+  letter-spacing: 3px;
+}
+.projectContent > p {
+  line-height: 30px;
+  margin: 10px 0px 20px 0px;
+  /* width: 80%; */
+}
+
+.projectContent div p {
+  display: inline-block;
+  /* border: 1px solid green; */
+  font-weight: bold;
+  background-color: #c2e4ff;
+  padding: 5px 10px;
+  margin: 5px 3px;
+  /* border-radius: 3px; */
+}
+
+.projectContent a {
+  box-shadow: -8px 8px 0px #c2e4ff;
+}
+
+.projectImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  padding: 30px 0px;
+}
+
+.projectImage img {
+  width: 85%;
+}
+
+/* About Box */
+#aboutBox {
+  /* border: 1px solid black; */
+  margin: -90px 0px 0px 0px;
+  padding: 20px 40px;
+  /* display: grid;
+  grid-template-columns: repeat(2, 50%); */
+  /* height: 80vh; */
+}
+
+#aboutBox > div {
+  display: flex; 
+  flex-direction: column;
+  /* justify-content: left; */
+}
+
+#aboutContent {
+  padding: 20px 0px;
+}
+#aboutContent > div {
+  margin: 30px 0px;
+}
+
+#aboutContent div p {
+  line-height: 30px;
+  margin: 10px 0px;
+}
+
+#aboutContent div h4 {
+  font-weight: 900;
+  font-size: 26px;
+  color: #1b3c59;
+}
+
+/* Contact Box */
+
+#contactBox {
+  background-color: #c2e4ff;
+  margin: 24px;
+  padding: 50px 16px;
+  /* display: grid;
+  grid-template-columns: repeat(2, 50%); */
+}
+
+#contactContent {
+  padding: 20px 0px;
+  line-height: 30px;
+}
+
+#contactBox > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#copyright{
+  color: #1b3c59c2;
+  font-size: 10px;
+  position:relative;
+  /* letter-spacing: 1px; */
+  font-weight: 700;
+  /* bottom: 0px; */
+  /* left: 0px; */
+}
+
+
+
+
+
