@@ -1,108 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" media="screen and (min-width: 427px)" href="./css/widescreen.css" />
-    <link rel="stylesheet" media="screen and (max-width: 426px)" href="./css/smallscreen.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mulish:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Chandrababu Gowda</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="navbarBox">
-        <div id="logo">Chandrababu Gowda</div>
-        <div id="button">
-          <a href="#projectBox"> my work</a>
-          <a href="#contactBox"> get in touch</a>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mulish:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <title>Chandrababu Gowda</title>
+</head>
+
+<body>
+  <div class="bg-clr">
+    <section class="section--1 navbarBox navbarBox--padding container row">
+      <div class="container nav__row">
+        <div class="logo">Chandrababu Gowda</div>
+        <div class="hamburger"><img src="./images/menu.png" alt=""></div>
       </div>
-      <div id="heroBox">
-        <h1>
-          Hi, I'm Chandrababu Gowda,
-          <span id="highlight">Front-End Web Developer</span> and
-          <span id="highlight">Web Designer</span>.
-        </h1>
-        <p>
-          I design and build beautiful websites for businesses around the globe.
-          If you need a modern and powerful website, send me an email. If I am a
-          good fit, I will give you a time and cost estimate.
-        </p>
-        <a href="#projectBox" class="btn">see my work</a>
+      <div class="container button hidden">
+        <a href="#projectBox"> my work</a>
+        <a href="#contactBox"> get in touch</a>
       </div>
-    </div>
-    <!-- Things to change -->
-    <!-- 1.Title of the website -->
-    <!-- 2.Tags -->
-    <!-- 3.Explanation of the website -->
-    <!-- 4.Display photo -->
-    <!-- 5.New HTML page -->
-    <!-- 6.Link of the actual website -->
-    <div id="projectBox">
-      <!-- HaCO Circle -->
-      <div class="project">
-        <div class="projectContent">
-          <h5>LATEST WORK</h5>
-          <h1>College Club Website</h1>
-          <div>
-            <p>Web Design</p>
-            <p>Web Development</p>
-            <p>Live</p>
-          </div>
-          <p>
-            A website for Malnad College of Engineering's club. This website is designed by me as per the likings of the General Seceratary of the club and also developed by me.
+    </section>
+    <section class="section--2 heroBox">
+      <div class="container">
+        <div class="heroBox--limit">
+          <h1 class="sec__heading">
+            Hi, I'm Chandrababu Gowda,
+            <span class="sec__heading highlight">Front-End Web Developer</span> and
+            <span class="sec__heading highlight">Web Designer</span>.
+          </h1>
+          <p class="sec__paragraph sec__paragraph--width">
+            I design and build beautiful websites for businesses around the globe.
+            If you need a modern and powerful website, send me an email. If I am a
+            good fit, I will give you a time and cost estimate.
           </p>
-          <a href="./html/hacoCircle.html" class="btn"> see this work</a>
+          <a href="#projectBox" class="btn">see my work</a>
         </div>
-        <div class="projectImage"><img src="./images/haco-collage.jpg" alt="" /></div>
+      </div>
+    </section>
+  </div>
+  <!-- Things to change -->
+  <!-- 1.Title of the website -->
+  <!-- 2.Tags -->
+  <!-- 3.Explanation of the website -->
+  <!-- 4.Display photo -->
+  <!-- 5.New HTML page -->
+  <!-- 6.Link of the actual website -->
+  <section class="section--3 projectBox" id="projectBox">
+    <div class="container">
+      <!-- Idea Lab -->
+      <div class="project row">
+        <div class="projectContent col">
+          <h5 class="sec__supscr">LATEST WORK</h5>
+          <h1 class="sec__heading highlight">Idea Lab website</h1>
+          <div>
+            <p class="sec__tag">Web Design</p>
+            <p class="sec__tag">Web Development</p>
+            <p class="sec__tag">Under Production</p>
+          </div>
+          <p class="sec__paragraph">
+            A website for Malnad College of Engineering's idea lab team. This team works to innovate and make many big
+            projects look like a small piece of cake.
+          </p>
+          <a href="./html/ideaLab.html" class="btn">see this work</a>
+        </div>
+        <div class="projectImage col"><img src="./images/IdeaLab-collage.jpg" alt="" /></div>
+      </div>
+      <!-- HaCO Circle -->
+      <div class="project row">
+        <div class="projectContent col">
+          <h5 class="sec__supscr">LATEST WORK</h5>
+          <h1 class="sec__heading highlight">College Club Website</h1>
+          <div>
+            <p class="sec__tag">Web Design</p>
+            <p class="sec__tag">Web Development</p>
+            <p class="sec__tag">Live</p>
+          </div>
+          <p class="sec__paragraph">
+            A website for Malnad College of Engineering's club. This website is designed by me as per the likings of the
+            General Seceratary of the club and also developed by me.
+          </p>
+          <a href="./html/hacoCircle.html" class="btn">see this work</a>
+        </div>
+        <div class="projectImage col"><img src="./images/haco-collage.jpg" alt="" /></div>
       </div>
       <!-- Bengaluru Naati Point -->
-      <div class="project">
-        <div class="projectContent">
-          <h5>LATEST WORK</h5>
-          <h1>Hotel Website</h1>
+      <div class="project row">
+        <div class="projectContent col">
+          <h5 class="sec__supscr">OLD WORK</h5>
+          <h1 class="sec__heading highlight">Hotel Website</h1>
           <div>
-            <p>Web Design</p>
-            <p>Web Development</p>
-            <p>Live</p>
+            <p class="sec__tag">Web Design</p>
+            <p class="sec__tag">Web Development</p>
+            <p class="sec__tag">Live</p>
           </div>
-          <p>
-            A hotel situated in the IT capital of India which serves traditional South Indian food for a reasonable price and has been appreciated for the quality by the people who visited the Hotel. This website was designed and built be me.    
+          <p class="sec__paragraph">
+            A hotel situated in the IT capital of India which serves traditional South Indian food for a reasonable
+            price
+            and has been appreciated for the quality by the people who visited the Hotel. This website was designed and
+            built be me.
           </p>
           <a href="./html/bengalurunaatipoint.html" class="btn"> see this work</a>
         </div>
-        <div class="projectImage"><img src="./images/BNP-collage.jpg" alt="" /></div>
+        <div class="projectImage col"><img src="./images/BNP-collage.jpg" alt="" /></div>
       </div>
       <!-- Lovechat -->
-      <div class="project">
-        <div class="projectContent">
-          <h5>LATEST WORK</h5>
-          <h1>Chat App website</h1>
+      <div class="project row">
+        <div class="projectContent col">
+          <h5 class="sec__supscr">EARLY WORK</h5>
+          <h1 class="sec__heading highlight">Chat App website</h1>
           <div>
-            <p>Web Design</p>
-            <p>Web Development</p>
-            <p>Concept</p>
+            <p class="sec__tag">Web Design</p>
+            <p class="sec__tag">Web Development</p>
+            <p class="sec__tag">Concept</p>
           </div>
-          <p>
+          <p class="sec__paragraph">
             This is a homepage design and build for a concept project - a chat
             application. I have designed the page first then later built a
             responsive page.
           </p>
           <a href="./html/chatApp.html" class="btn"> see this work</a>
         </div>
-        <div class="projectImage"><img src="./images/finalchatapp.png" alt="" /></div>
+        <div class="projectImage col"><img src="./images/finalchatapp.png" alt="" /></div>
       </div>
-    </div>
-    <div id="aboutBox">
-      <div><h1>What I do</h1></div>
-      <div id="aboutContent">
+  </section>
+  <section class="section--4 aboutBox">
+    <div class="container row">
+      <div class="col">
+        <h1 class="sec__heading highlight">What I do</h1>
+      </div>
+      <div class="aboutContent col">
         <div>
-          <h4>Design</h4>
-          <p>
+          <h4 class="sec__subheading">Design</h4>
+          <p class="sec__paragraph">
             I design beautiful and powerful websites for modern businesses. Any
             business today needs a website that wins customers' trust and helps
             you do your business well. I make sure your website is up to that
@@ -110,8 +142,8 @@
           </p>
         </div>
         <div>
-          <h4>Development</h4>
-          <p>
+          <h4 class="sec__subheading">Development</h4>
+          <p class="sec__paragraph">
             I build websites from scratch and I will create responsive, powerful
             and fully custom websites. Plus, the websites that I build are
             Search Engine Optimized(SEO) as I don't use any frameworks and I
@@ -121,18 +153,30 @@
         </div>
       </div>
     </div>
-    <div id="contactBox">
-      <div><h1>Want to work?</h1></div>
-      <div>
-        <p id="contactContent">
-          If you need a modern and powerful website for your business, startup
-          or personally, I am available for work. You can email me directly at
-          <span style="text-decoration: underline"
-            >chandrababugowda3042003@gmail.com</span
-          >.
-        </p>
+  </section>
+  </div>
+  <section class=" section--5 contactBox bg-clr" id="contactBox">
+    <div class="container row">
+      <div class="col">
+        <h1 class="sec__heading highlight">Want to work?</h1>
       </div>
-      <div id="copyright">©All right reserved - Chandrababu Gowda</div>
+      <div class="col">
+        <p class="contactContent sec__paragraph">
+          If you need a modern and powerful website for your business, startup
+          or personally, I am available for work. You can contact me on
+        </p>
+        <div>
+
+          <a href="#"><img class="contact-icons" src="./images/linkedin.png" alt=""></a>
+          <a href="#"><img class="contact-icons" src="./images/email.png" alt=""></a>
+          <a href="#"><img class="contact-icons" src="./images/github-sign.png" alt=""></a>
+          <a href="#"><img class="contact-icons" src="./images/instagram.png" alt=""></a>
+        </div>
+        <div class="copyright">©All right reserved - Chandrababu Gowda</div>
+      </div>
     </div>
-  </body>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
 </html>

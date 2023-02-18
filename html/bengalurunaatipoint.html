@@ -1,59 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" media="screen and (min-width: 427px)" href="../css/showcasewide.css" />
-    <link rel="stylesheet" media="screen and (max-width: 426px)" href="../css/showcasesmall.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mulish:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <link rel="stylesheet" href="../css/showcase.css" /> -->
-    <title>Portfolio | Bengaluru Naati Point</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="navbarBox">
-        <div id="logo">Chandrababu Gowda</div>
-        <div id="button">
-          <a href="#projectBox"> my work</a>
-          <a href="#contactBox"> get in touch</a>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Portfolio | Bengaluru Naati Point</title>
+</head>
+
+<body>
+  <div class="bg-clr">
+    <section class="section--1 navbarBox navbarBox--padding container row">
+      <div class="container nav__row">
+        <div class="logo">Chandrababu Gowda</div>
+        <div class="hamburger">Ham</div>
       </div>
-      <div id="heroBox">
+      <div class="container button hidden">
+        <a href="#projectBox"> my work</a>
+        <a href="#contactBox"> get in touch</a>
+      </div>
+    </section>
+    <section id="heroBox">
+      <div class="container">
         <div class="project">
-          <div class="projectContent">
-            <h5>PROJECT SHOWCASE</h5>
-            <h1>Hotel Website</h1>
+          <div class="projectContent container">
+            <h5 class="sec__supscr">PROJECT SHOWCASE</h5>
+            <h1 class="sec__heading highlight">Hotel Website</h1>
             <div>
-              <p>Web Design</p>
-              <p>Web Development</p>
-              <p>Live</p>
+              <p class="sec__tag">Web Design</p>
+              <p class="sec__tag">Web Development</p>
+              <p class="sec__tag">Live</p>
             </div>
-            <p>A hotel situated in the IT capital of India which serves traditional South Indian food for a reasonable price and has been appreciated for the quality by the people who visited the Hotel. This website was designed and built be me.
+            <p class="sec__paragraph">A hotel situated in the IT capital of India which serves traditional South Indian
+              food
+              for a reasonable
+              price and has been appreciated for the quality by the people who visited the Hotel. This website was
+              designed and built be me.
             </p>
-            <a href="https://chandrababu-gowda.github.io/Bengalurunaatipoint/index.html" class="btn"  target="_blank">visit live site</a>
+            <a href="https://chandrababu-gowda.github.io/Bengalurunaatipoint/index.html" class="btn"
+              target="_blank">visit
+              live site</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="projectImage">
+    </section>
+  </div>
+  <section class="projectImage">
+    <div class="container">
       <img src="../images/BNP - Home.jpg" alt="" />
     </div>
-    <div id="contactBox">
-      <div><h1>Want to work?</h1></div>
-      <div>
-        <p id="contactContent">
-          If you need a modern and powerful website for your business, startup
-          or personally, I am available for work. You can email me directly at
-          <span style="text-decoration: underline"
-            >chandrababugowda3042003@gmail.com</span
-          >.
-        </p>
+  </section>
+  <section class=" section--5 contactBox bg-clr" id="contactBox">
+    <div class="container row">
+      <div class="col">
+        <h1 class="sec__heading highlight">Want to work?</h1>
       </div>
-      <div id="copyright">©All right reserved - Chandrababu Gowda</div>
+      <div class="col">
+        <p class="contactContent sec__paragraph">
+          If you need a modern and powerful website for your business, startup
+          or personally, I am available for work. You can contact me on
+        </p>
+        <div class="copyright">©All right reserved - Chandrababu Gowda</div>
+      </div>
     </div>
-  </body>
+  </section>
+  <script src="../index.js"></script>
+</body>
+
 </html>
